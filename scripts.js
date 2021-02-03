@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 
 
-function myFunction() {
+/*function myFunction() {
   var x = document.getElementsByClassName("darktheme");
   var i;
   for (i = 0; i < x.length; i++) {
@@ -72,4 +72,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
       }
   })
-})
+})*/
+
+
+/*New one*/
+function myFunction() { 
+  // Obtains an array of all <link> 
+  // elements. 
+  // Select your element using indexing. 
+  var theme = document.getElementsByTagName('link')[0]; 
+
+  // Change the value of href attribute  
+  // to change the css sheet. 
+  if (theme.getAttribute('href') == 'light-theme.css') { 
+      theme.setAttribute('href', 'dark-theme.css'); 
+  } else { 
+      theme.setAttribute('href', 'light-theme.css'); 
+  } 
+} 
