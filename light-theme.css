@@ -28,11 +28,29 @@
     margin: 0px auto;
     padding: 20px 0px; }
   
-  .jumbotron {
+  /*.jumbotronee {
     margin: 0px auto;
     padding: 70px 30px;
     background: #2e0d68;
-    color: black; }
+    color: black; }*/
+
+  .jumbotrone {
+    padding:2rem 1rem;
+    margin-bottom:2rem;
+    background-color:#e9ecef;
+    border-radius:.3rem;
+  }
+
+  @media (min-width:576px){
+    .jumbotrone {
+      padding:4rem 2rem;
+    }}
+
+  .jumbotrone-fluid {
+    padding-right:0;
+    padding-left:0;
+    border-radius:0;
+  }
   
   address {
     font-size: 80%;
