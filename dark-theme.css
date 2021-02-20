@@ -137,11 +137,13 @@
   }*/
   .extracsswhole{
     transition: 0.2s;
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
   }
   
   .extracsswhole:hover {
     transform: translateY(-1.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
   }
 
   .textucss{
@@ -163,4 +165,16 @@
   .corpoucss1{
     background-color: #0275d8;
     color: white;
+  }
+
+  .backiev{
+    background-color: #1e1f20;
+  }
+
+  .textucss2{
+    color: rgb(34, 212, 78);
+  }
+
+  .textucss3{
+    color: aqua;
   }

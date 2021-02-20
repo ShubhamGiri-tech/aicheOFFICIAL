@@ -126,6 +126,7 @@
   
 .extracsswhole{
   transition: 0.2s;
+  background: linear-gradient(315deg,#03a9f4,#ff0058);
 }
 
 .extracsswhole:hover {

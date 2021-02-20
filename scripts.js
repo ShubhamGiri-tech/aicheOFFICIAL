@@ -86,7 +86,11 @@ function myFunction() {
   // to change the css sheet. 
   if (theme.getAttribute('href') == 'light-theme.css') { 
       theme.setAttribute('href', 'dark-theme.css'); 
+      var elementi1 = document.getElementById("theme-toggle");
+      elementi1.innerHTML = "Light mode";
   } else { 
       theme.setAttribute('href', 'light-theme.css'); 
+      var elementi2 = document.getElementById("theme-toggle");
+      elementi2.innerHTML = "Dark mode";
   } 
 } 
