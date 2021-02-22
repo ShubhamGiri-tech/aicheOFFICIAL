@@ -114,26 +114,26 @@ function myfunction6(){
 
 if (sessionStorage.getItem("points") == 1){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading1";
+    element.innerHTML = "WEBINAR";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 1";
+    element1.innerHTML = "When the pandemic was raging all over the world most of us were left none or no recreation at all. It was certainly a depressing phase for everyone and to overcome that gradual degradation of our mind space we under the leadership of our newly elected Executive Board members decided to utilize the online educational platforms by conducting webinars with our fellow regional AIChE student chapters of VIT, TIET, GSFCU and Ahmedabad University. As students of science, we firmly believe that ideas can expand and prosper effectively only through sharing. The webinars were a huge success and led to some really interesting conversations about certain ideas and the potential collaborations that we could work on in the future. These webinars also helped us to consolidate the bonds between the respective chapters and the entire regional fraternity.";
 }
 
 else if(sessionStorage.getItem("points") == 2){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading2";
+    element.innerHTML = "Art-E-Culate ";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 2";
+    element1.innerHTML = "This was the very first event conducted by our chapter for the 2020-21 session in collaboration with the student chapter of AIChE-GSFCU and it was indeed for a noble cause. In today’s generation there is no place for stereotypes and it is high time that we stop discriminating people based on their sexuality. This event was to showcase our support for the case by celebrating the Pride Month and promoting the LGBTQ+ community. The event was also to spread awareness about the advancements in the modern world and their application in Education and Industry through the inclusion of Artificial Intelligence and modern era machinery. The world is constantly evolving and to adapt ourselves to this transition one always needs to stay up to date with the new aspects in their respective departments. Art-E-Culate enabled us to do that by organizing a poster designing competition based on these causes where the online platforms were put to use for the submission of the E-posters.";
 }
 
 else if(sessionStorage.getItem("points") == 3){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading3";
+    element.innerHTML = "CheMystery Sherlocked ";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 3";
+    element1.innerHTML = "Science and a Mystery are two sides of the same coin. We term everything without an explanation or something that we do not understand as a mystery. As disciples of Science, it our duty to unravel these mysteries and add them to the list of discoveries instead. CheMystery Sherlocked was entire carried out on our Instagram handle to promote the very unraveling of these mysteries. We covered a very range of topics that included Chemical Engineering on how it is helping mankind in its fight against the Covid-19 pandemic and how it is constantly contributing towards the manufacturing of hybrid polymers to suit our everyday life making it easier. We also covered topics such as the Green Revolution, the importance of refineries (the true sense behind petroleum being called liquid gold) and the use of DNA engineering to make up for the world food shortage by producing Genetically Modified crops.";
 }
 
 
@@ -145,18 +145,18 @@ else if(sessionStorage.getItem("points") == 3){
 
 else if(sessionStorage.getItem("points") == 4){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading4";
+    element.innerHTML = "Blast from the Past ";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 4";
+    element1.innerHTML = "Nature can sometimes be really unforgiving and hence disasters must never be forgotten and we should always learn from it to avoid similar situations in the future. Mankind has been the subject to many such horrific disasters and to help people understand them better was the very aim of “Blast from the Past”. In collaboration with AIChE-Ahmedabad University we decided to conduct this event where the participants had to study about a particular disaster and also about the key-people related to it. After conducting a thorough research about the given individuals, they were to suggest what different decisions they could have taken to avoid that disaster. The purpose of this event was to encourage disaster-control amongst our Instagram page followers and Science students in general so that we can work together to create a safe and disaster-free environment.";
 }
 
 else if(sessionStorage.getItem("points") == 5){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading5";
+    element.innerHTML = "GoT-Reel to Real ";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 5";
+    element1.innerHTML = "It is a general perception that Science is all about experiments, laboratories, research and hard work but it can also be really fun and interesting when looked at from a different perspective. Since “Netflix and Chill” is the current trend, we decided to promote Science with the help of it. The event was all about certain reel elements of the very popular fantasy drama television series Game of Thrones and their possible existence in real life. From Dragons to White walkers and wildfire to The Great Wall-we got it all in there. It was one of our most awaited online post series and the results were really amazing as our efforts and findings were lauded by the Genral student body. Make sure to visit our Blog and Instagram pages and give it a read to have a firsthand experience of the entire series.";
 }
 
 else if(sessionStorage.getItem("points") == 6){
