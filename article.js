@@ -106,6 +106,36 @@ function myfunction6(){
     location.href = "article.html";
 }
 
+function myfunction7(){
+    sessionStorage.setItem("points", 7);
+    location.href = "article.html";
+}
+
+function myfunction8(){
+    sessionStorage.setItem("points", 8);
+    location.href = "article.html";
+}
+
+function myfunction9(){
+    sessionStorage.setItem("points", 9);
+    location.href = "article.html";
+}
+
+function myfunction10(){
+    sessionStorage.setItem("points", 10);
+    location.href = "article.html";
+}
+
+function myfunction11(){
+    sessionStorage.setItem("points", 11);
+    location.href = "article.html";
+}
+
+function myfunction12(){
+    sessionStorage.setItem("points", 12);
+    location.href = "article.html";
+}
+
 
 
 
@@ -161,10 +191,58 @@ else if(sessionStorage.getItem("points") == 5){
 
 else if(sessionStorage.getItem("points") == 6){
     var element = document.getElementById("id01");
-    element.innerHTML = "New Heading6";
+    element.innerHTML = "Murder Mystery Science Series ";
     document.getElementById('myImage').src="A.png";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Lorem ipsum - 6";
+    element1.innerHTML = "After the overwhelming success of our GoT series, we decided to try something similar this time but with added efforts to increase the involvement of participants. To maintain our tradition for forensic science mixed with detective stories which had attracted a lot of positive compliments previously during “CheMystery Sherlocked” we tried to recreate some of it. This online series was about combining science with the mysteries of Dr Jekyll and Mr. Hyde and some of our efforts to produce a forensic narrative where important words were stroked off. The participants had to guess those words with the help of the clues that were given in the narrative. Our chapter’s content writers really excelled in creating this entire segment and the winners were given a shoutout from our Instagram page.";
+}
+
+else if(sessionStorage.getItem("points") == 7){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Bid n Win";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Bidding wars are surely no joke. Be it for a player auction or for a really valuable painting it is an art in itself and sometimes get really competitive. We decided to utilize that spirit and encourage smart thinking among the science students through “Bid n Win”. As a pre-SRC event this was the perfect way to set the mood for the upcoming council meetings. The participants were to bid for a specific question through the virtual currency allotted to them and each question carried some points which was unknown to the participants. Bidding the right amount was extremely vital as everyone had been allotted the same amount of five thousand virtual dollars. On giving the correct answers, the respective points were awarded and the participant with the highest points by the end of the entire event was declared as the winner.";
+}
+
+else if(sessionStorage.getItem("points") == 8){
+    var element = document.getElementById("id01");
+    element.innerHTML ="Prajwalit(SRC 2020)";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Prajwalit was no doubt the most awaited and a trademark event conducted by AIChE NIT Rourkela chapter and its Executive Board members. It was not possible for us to conduct an offline SRC session due to the pandemic situation but that did not stop us and for the first time ever the three-day long Student Regional Council was conducted entirely online. The first event was a paper and poster presentation where the participants had to present results from research projects done at universities or during internships. This was followed by the K-12 stem showcase competition which aimed at exposing the youth to the true potentials of Science and Technology and eventually help them to shape their future more effectively. This was followed by Chem-e-Jeopardy to sharpen the quizzing skills of the participants and Chem-e-Safe to spread awareness among the students about the real-life situations that one might encounter in the industry. The Chief Guests for the event, Prof. B.K. Dutta, Prof. Dr. Yunus Cengel and Mr. Debashish Chakraborty shared their invaluable knowledge with the Counsil. Prajawalit was concluded by workshops on MATLAB and Aspen to help the students familiarize with their intricacies which is absolutely vital in today’s generation.";
+}
+
+else if(sessionStorage.getItem("points") == 9){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Santa’s Secrets ";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "The year 2020 was a difficult one for a lot of us but nevertheless we had to move on and hope for the best. The experiences we had gained were still an asset to us and it was very important to wrap up 2020 on a good note. To celebrate Christmas and set the mood we released the Santa’s Secret series. This event was special for our chapter as the new batch of freshmen students were also a part of this event and we were optimistic for things returning back to normal in 2021. Santa’s Secret aimed at deciphering certain aspects of Santa and the scientific possibilities behind them. It consisted of six articles, each concerned with a specific ability of Santa such as super-speed, his nanomaterial suit, Rudolph’s shiny nose, mind reading abilities, invisibility and also his long life. Make sure to visit and follow our Instagram page to read the entire segment.";
+}
+
+else if(sessionStorage.getItem("points") == 10){
+    var element = document.getElementById("id01");
+    element.innerHTML = "K-12 Program on Gravitation";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "We are always represented by our successors, so it is very important for us to pass on our knowledge and experience to our upcoming generations. The youth have a tender mindset and can be molded easily so it is our duty to point them towards the right direction. Our K-12 sessions aim to capitalize on this goal and help them get ready for everything that lies ahead. K-12 Gravitation was conducted for the class 11 students of Kendriya Vidyalaya, Rourkela under K-12 Outreach to inform them about various topics under Gravitation. The modules consisted of many demonstrations to enhance the session and explanations of different concepts to help them understand and retain those topics regarding gravitation. Overall, this event was a success and we got a positive response from the attendees as well as the concerned faculty and professors.";
+}
+
+else if(sessionStorage.getItem("points") == 11){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Navdhara";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "India has a very large percentage of Rural population and it is very important for us to realize the impact that growing industries, subsequent neglect of safety standards and irresponsibility in general is having on them. The purpose of Navdhara was to spread awareness about the current rural situation and the problems that they are facing along with innovative solutions that can be utilized to counter those problems. With Koel Fresh as our industrial partner we tried to reach a very wide range of audience. Navdhara consisted of a poster making competition, a blog writing competition and an Industrial design problem task with cash rewards for winners of each competition. The event also consisted of a webinar by Asutosh Nayak (Co-Founder and Chief Advisor, SEE Green Technologies) and Kehkashan Basu (Founder of Green Hope Foundation, United Nations). The entire event was a huge success as it got featured in the local newspapers and lauded by all the participants and advisors.";
+}
+
+else if(sessionStorage.getItem("points") == 12){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Career Fair";
+    document.getElementById('myImage').src="A.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
 }
 
 

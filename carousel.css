@@ -94,3 +94,8 @@ body {
 
   .navbar-dark {
     background-color: #512DA8; }
+
+    .footer {
+      background-color: #D1C4E9;
+      margin: 0px auto;
+      padding: 20px 0px; }
