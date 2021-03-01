@@ -142,6 +142,7 @@ function myfunction12(){
 
 
 
+
 if (sessionStorage.getItem("points") == 1){
     var element = document.getElementById("id01");
     element.innerHTML = "WEBINAR";
