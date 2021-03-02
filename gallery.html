@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,7 +16,7 @@
 
     <meta name="theme-color" content="#7952b3">
   </head>
-  <body  onload="slide()">
+  <body onkeydown="slide_keys(event)">
     
     <header>
       <nav class="navbar navbar-dark navbar-expand-sm fixed-top darktheme">
@@ -47,33 +46,63 @@
 <h2 style="text-align:center; font-size: 150%;">The NITR AIChE Family</h2><br>
     <div class="container_slides">
       <div class="mySlides">
-        <div class="numbertext">1 / 6</div>
-        <img src="image1.PNG" style="width:100%">
+        <div class="numbertext">1 / 12</div>
+        <img src="imagesteam/AIChE Family 2019.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 12</div>
+        <img src="imagesteam/MIT Pune Syntropy NITR Chem-E-Car team.jpg" style="width:100%">
       </div>
     
       <div class="mySlides">
-        <div class="numbertext">2 / 6</div>
-        <img src="image2.PNG" style="width:100%">
+        <div class="numbertext">3 / 12</div>
+        <img src="imagesteam/2nd runners up team of 1st Chem-E-Car competition held during Innovision..jpg" style="width:100%">
       </div>
     
       <div class="mySlides">
-        <div class="numbertext">3 / 6</div>
-        <img src="image3.PNG" style="width:100%">
+        <div class="numbertext">4 / 12</div>
+        <img src="imagesteam/3 years of EB of AIChE NIT Rourkela 2018-19.jpeg" style="width:100%">
       </div>
         
       <div class="mySlides">
-        <div class="numbertext">4 / 6</div>
-        <img src="image4.PNG" style="width:100%">
+        <div class="numbertext">5 / 12</div>
+        <img src="imagesteam/AIChE NITR's K-12 event at DPS Rourkela.jpg" style="width:100%">
       </div>
     
       <div class="mySlides">
-        <div class="numbertext">5 / 6</div>
-        <img src="image1.PNG" style="width:100%">
+        <div class="numbertext">6 / 12</div>
+        <img src="imagesteam/AIChE NITR's K-12 event during EDGE 2019.jpg" style="width:100%">
       </div>
         
       <div class="mySlides">
-        <div class="numbertext">6 / 6</div>
-        <img src="image2.PNG" style="width:100%">
+        <div class="numbertext">7 / 12</div>
+        <img src="imagesteam/ASC 19 2nd prize in CEJ.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 12</div>
+        <img src="imagesteam/Game of Chems during Innovision of 2019.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">9 / 12</div>
+        <img src="imagesteam/Manuever 3.0 winners and Coordinators.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">10 / 12</div>
+        <img src="imagesteam/MIT Pune Syntropy Chem-E-Car competition.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">11 / 12</div>
+        <img src="imagesteam/MIT Pune Syntropy NITR Chem-E-Car team.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">12 / 12</div>
+        <img src="imagesteam/SRC'19 2nd in CEJ.jpg" style="width:100%">
       </div>
       <!-- carousel ends -->
         
@@ -87,22 +116,40 @@
       <div class="scroll">
       <div class="row">
         <div class="column">
-          <img class="demo cursor" src="image1.PNG" style="width:100%;" onclick="currentSlide(1)" alt="one_line_description">
+          <img class="demo cursor" src="imagesteam/AIChE Family 2019.jpg" style="width:100%;" onclick="currentSlide(1)" alt="AIChE Family 2019">
         </div>
         <div class="column">
-          <img class="demo cursor" src="image2.PNG" style="width:100%" onclick="currentSlide(2)" alt="memories_we_have">
+          <img class="demo cursor" src="imagesteam/MIT Pune Syntropy NITR Chem-E-Car team.jpg" style="width:100%;" onclick="currentSlide(2)" alt="MIT Pune Syntropy NITR Chem-E-Car team">
         </div>
         <div class="column">
-          <img class="demo cursor" src="image3.PNG" style="width:100%;" onclick="currentSlide(3)" alt="what_a_day">
+          <img class="demo cursor" src="imagesteam/2nd runners up team of 1st Chem-E-Car competition held during Innovision..jpg" style="width:100%" onclick="currentSlide(3)" alt="2nd runners up team of 1st Chem-E-Car competition held during Innovision.">
         </div>
         <div class="column">
-          <img class="demo cursor" src="image4.PNG" style="width:100%" onclick="currentSlide(4)" alt="nostalgia">
+          <img class="demo cursor" src="imagesteam/3 years of EB of AIChE NIT Rourkela 2018-19.jpeg" style="width:100%;" onclick="currentSlide(4)" alt="3 years of EB of AIChE NIT Rourkela 2018-19">
         </div>
         <div class="column">
-          <img class="demo cursor" src="image1.PNG" style="width:100%" onclick="currentSlide(5)" alt="remember?">
+          <img class="demo cursor" src="imagesteam/AIChE NITR's K-12 event at DPS Rourkela.jpg" style="width:100%" onclick="currentSlide(5)" alt="AIChE NITR's K-12 event at DPS Rourkela">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/AIChE NITR's K-12 event during EDGE 2019.jpg" style="width:100%" onclick="currentSlide(6)" alt="AIChE NITR's K-12 event during EDGE 2019">
         </div>    
         <div class="column">
-          <img class="demo cursor" src="image2.PNG" style="width:100%" onclick="currentSlide(6)" alt="thats_all_we_want">
+          <img class="demo cursor" src="imagesteam/ASC 19 2nd prize in CEJ.jpg" style="width:100%" onclick="currentSlide(7)" alt="ASC 19 2nd prize in CEJ.jpg">
+        </div> 
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/Chem-E-Car 2.0 competitor cars display.jpg" style="width:100%" onclick="currentSlide(8)" alt="Chem-E-Car 2.0 competitor cars display">
+        </div> 
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/Game of Chems during Innovision of 2019.jpg" style="width:100%" onclick="currentSlide(9)" alt="Game of Chems during Innovision of 2019">
+        </div> 
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/Manuever 3.0 winners and Coordinators.jpg" style="width:100%" onclick="currentSlide(10)" alt="Manuever 3.0 winners and Coordinators">
+        </div> 
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/MIT Pune Syntropy Chem-E-Car competition.jpg" style="width:100%" onclick="currentSlide(11)" alt="MIT Pune Syntropy Chem-E-Car competition">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="imagesteam/SRC'19 2nd in CEJ.jpg" style="width:100%" onclick="currentSlide(12)" alt="thats_all_we_want">
         </div>
       </div>
     </div>
@@ -114,10 +161,10 @@
       </div>
       <footer class="footer fuecss">
         <div class="container">
-            <div class="row">             
+            <div class="row whitecol1">
                 <div class="col-4 offset-1 col-sm-2">
                     <h5 class="textucss">Links</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled ">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="main.html">Events</a></li>
@@ -127,33 +174,32 @@
                 <div class="col-7 col-sm-5">
                     <h5 class="textucss">Our Address</h5>
                     <address class="textucss">
-                    Jindal colony,Bisra Road<br>
-                    National Institute Of Technology,Rourkela<br>
-                    Odisha 769001<br>
-                    <i class="fa fa-phone fa-lg"></i>: +91 94347488931<br>
-                    <i class="fa fa-fax fa-lg"></i>: +91 6388374712<br>
-                      <i class="fa fa-envelope fa-lg"></i>: 
-                      <a href="#">aiche.nitrkl@gmail.com</a>
-               </address>
+                        Jindal colony,Bisra Road<br>
+                        National Institute Of Technology,Rourkela<br>
+                        Odisha 769001<br>
+                        <i class="fa fa-phone fa-lg"></i>: +91 94347488931<br>
+                        <i class="fa fa-fax fa-lg"></i>: +91 6388374712<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a href="#">aiche.nitrkl@gmail.com</a>
+                    </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/AIChENITR"><i class="fa fa-facebook fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/aiche-nitr/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="https://www.instagram.com/aiche.nitrkl/?igshid=l5z85gplv99q"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/aiche.nitrkl/?igshid=l5z85gplv99q"><i class="fa fa-instagram fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:aiche.nitrkl@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-auto">
                     <p class="textucss">© Copyright 2021 AICHE</p>
                 </div>
-           </div>
+            </div>
         </div>
-    </footer>
+      </footer>
     
     </main>
 

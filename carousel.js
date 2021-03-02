@@ -24,8 +24,22 @@ else{
         slideIndex +=1;
         showSlides(slideIndex);
         },
-        3000);
-}
+        5000);
+    }
+    
+    function slide_keys(event) {
+    console.log(event.key);
+    var x = event.key;
+    if (x === "ArrowLeft"){
+        plusSlides(-1);
+        return false;
+    }
+    if(x === "ArrowRight"){
+        plusSlides(1);
+        return false;
+    }
+    
+  }
 
 showSlides(slideIndex);
 
@@ -56,3 +70,5 @@ function showSlides(n) {
     dots[slideIndex-1].style.border = "1px solid black";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+slide();
