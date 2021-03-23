@@ -88,9 +88,11 @@ function myFunction() {
       theme.setAttribute('href', 'dark-theme.css'); 
       var elementi1 = document.getElementById("theme-toggle");
       elementi1.innerHTML = "Light mode";
+      document.getElementById('changeimage').src="imagesteam/missions-dark-01.jpg";
   } else { 
       theme.setAttribute('href', 'light-theme.css'); 
       var elementi2 = document.getElementById("theme-toggle");
       elementi2.innerHTML = "Dark mode";
+      document.getElementById('changeimage').src="imagesteam/missions-01.jpg";
   } 
 } 
